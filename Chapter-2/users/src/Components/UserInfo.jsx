@@ -1,17 +1,10 @@
 import React from "react"
 
-export class UserInfo extends React.Component {
-    constructor(props) {
-        super(props);
-        
-        
-        };
-    render(){
-     return( 
+export function UserInfo (props){
+     return ( 
         <div>  
-          <p>{this.props.name} {this.props.email} {this.props.website}</p>;
+          <h3>{props.name}</h3>
+          <p> {props.email} {props.website}</p>
         </div> 
         )
-}
-
-}
+};

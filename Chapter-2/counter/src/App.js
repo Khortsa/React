@@ -13,7 +13,7 @@ class App extends React.Component {
       decrementCount = () => {
         //let oldCount = this.state.count;
       this.setState({ 
-         count: this.state.count - 1 
+         count: this.state.count - 1
         //  count: oldCount -1
       })
       }

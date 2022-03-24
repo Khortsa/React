@@ -1,0 +1,12 @@
+.firstClass{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  
+}
+.secondClass{
+ align-items: center;
+  
+}
